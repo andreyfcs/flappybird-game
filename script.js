@@ -73,6 +73,7 @@ const flappyBird = {
     y: 50,
     gravidade: 0.25,
     velocidade: 0,
+    // [Movimento]
     atualiza() {
         flappyBird.velocidade = flappyBird.velocidade + flappyBird.gravidade;
         console.log(flappyBird.velocidade);
